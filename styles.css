@@ -1,0 +1,444 @@
+body {
+    background-color: #00053B;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 180px;
+}
+
+.header_navLinks {
+    display: flex;
+    gap: 60px;
+}
+
+.header_navLinks > a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.section_contaniner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_section{
+    height: 500px;
+}
+
+.monitor{
+    height: 100%;
+    width: 520px;
+}
+
+.section_contaniner{
+    padding: 70px 180px;
+}
+
+.hero-text{
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: bold;
+}
+.hero-paragraph{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.button_group{
+    display: flex;
+    flex-direction: row;
+    width: 530px;
+}
+.left_button{
+    background-color: #9190DB;
+    border-radius: 83px;
+    width: 265px;
+    height: 75px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 10%;
+    border: none;
+    margin-right: 5px;
+}
+
+.left_button:hover{
+    background-color: black;
+}
+.right_button{
+    border-radius: 83px;
+    width: 265px;
+    height: 75px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 10%;
+    border: solid;
+    border-color: #86CFD0;
+    background-color: #00053B;
+}
+
+.featured{
+    padding: 70px 180px;
+}
+
+.sub-header{
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.wow{
+    max-width: 100%;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 180px;
+}
+
+.mid_header{
+    color: #AAD9D9;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mid_text{
+    color: #FFFEFE;
+    font-family: Outfit;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 57px;
+    text-transform: capitalize;
+    width: 531px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.left-middle{
+    height: 500px;
+}
+
+.feedback{
+    height: 420px;
+    width: 490px;
+    justify-content: center;
+}
+
+.middle-section p {
+    color:white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.right-middle button{
+    border-radius: 83px;
+    background: #9190DB;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 10%;
+    border: none;
+    padding: 20px 76px;
+    gap: 10px;
+}
+
+.bottom-section {
+    padding: 70px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-section button {
+    border-radius: 83px;
+    background: #9190DB;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 10%;
+    border: none;
+    padding: 20px 76px;
+    gap: 10px;
+}
+
+.rightbottom-section {
+    height: 500px;
+}
+
+.chat {
+    height: 100%;
+    width: 525px;
+    justify-content: center;
+}
+
+.bottom-section p {
+    color:white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.mid_header1 {
+    color: #AAD9D9;
+    font-family: Outfit sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+.read {
+    color: #FFFEFE;
+    text-align: center;
+    font-family: Outfit sans-serif;
+    font-size: 57px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 57px;
+    margin: 0;
+}
+
+.testimonial {
+    padding: 70px 180px;
+}
+
+.testimonial-text{
+    border: none;
+    background: #0F1248;
+    border-radius: 20px;
+    width: 345px;
+    height: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.testimonial-text img {
+    width: 80px;
+    height: 80px;
+    margin-top: -4.5em;
+}
+.people {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.lorem {
+   font-family: roboto;
+   font-size: 15px;
+   font-weight: 400;
+   text-align: center;
+   color: white;
+   height: 80px;
+   line-height: 17px;
+   margin-top: 20px;
+}
+
+.three {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.get-started {
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    background: linear-gradient(97deg, #00053B -2.31%, #B3D7DD 118.39%);
+}
+
+.get-started h3 {
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.get-started h2 {
+    color: #B3D7DD;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.get-started button {
+    display: inline-flex;
+    padding: 23px 76px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 83px;
+    background: #7C96AB;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.krypto {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 531.5px);
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.join-our-newsletter {
+    position: absolute;
+    top: 0px;
+    left: calc(50% + 183.5px);
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-block;
+    width: 293px;
+}
+
+.home {
+    margin: 0;
+}
+
+.home-about-buy-container {
+    position: absolute;
+    top: 56.88px;
+    left: calc(50% - 357.5px);
+    line-height: 31px;
+    font-family: Roboto;
+    display: inline-block;
+    width: 69px;
+    height: 124.47px;
+}
+
+.browse-nfts-buy-container {
+    position: absolute;
+    top: 56.88px;
+    left: calc(50% - 179.5px);
+    line-height: 31px;
+    font-family: Roboto;
+    display: inline-block;
+    width: 97px;
+    height: 93.35px;
+}
+
+.email-linkedin-instagram-container {
+    position: absolute;
+    top: 56.88px;
+    left: calc(50% + 8.5px);
+    line-height: 31px;
+    font-family: Roboto;
+    display: inline-block;
+    width: 74px;
+    height: 124.47px;
+}
+
+.krypto1 {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 357.5px);
+    font-weight: 600;
+    display: inline-block;
+    width: 113px;
+}
+
+.market {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 179.5px);
+    font-weight: 600;
+    display: inline-block;
+    width: 123px;
+}
+
+.contact {
+    position: absolute;
+    top: 4px;
+    left: calc(50% + 8.5px);
+    font-weight: 600;
+    display: inline-block;
+    width: 128px;
+}
+
+.footer-child {
+    position: absolute;
+    top: 52px;
+    left: calc(50% + 160.5px);
+    border-radius: 70px;
+    background-color: #0f1248;
+    width: 371px;
+    height: 65px;
+}
+
+.email-address {
+    position: absolute;
+    top: 82.98px;
+    left: calc(50% + 183.5px);
+    line-height: 31px;
+    font-family: Roboto;
+    display: inline-block;
+    width: 113px;
+    height: 31.12px;
+}
+
+.submit {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.submit-wrapper {
+    position: absolute;
+    top: 61px;
+    left: calc(50% + 405.5px);
+    border-radius: 83px;
+    background-color: #9190db;
+    width: 116px;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 76px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: 181.35px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Outfit;
+}
+
+.rectangle-div {
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    background: linear-gradient(96.92deg, #00053b, #b3d7dd);
+    height: 31px;
+}
